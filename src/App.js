@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <BackgroundImg/>
-      <div className="flex flex-col h-screen justify-between items-center pb-60 pt-40">
+      <div className="flex flex-col h-screen justify-between items-center pb-40 pt-40">
           <Clock className='flex'/>
           <SearchBar className='flex'/>
           <Links className='flex'/>
