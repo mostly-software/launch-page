@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import BackgroundImg from "./components/BackgroundImg";
+import Clock from "./components/Clock";
+import SearchBar from "./components/SearchBar";
+import Links from "./components/Links";
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <BackgroundImg/>
+      <div className="flex flex-col h-screen justify-between items-center pb-60 pt-40">
+          <Clock className='flex'/>
+          <SearchBar className='flex'/>
+          <Links className='flex'/>
+      </div>
+    </>
+  )
 }
 
 export default App;
