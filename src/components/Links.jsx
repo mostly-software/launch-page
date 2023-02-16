@@ -4,7 +4,7 @@ import { SiGmail, SiYoutube, SiTwitch, SiNetflix,
 
 export default function Links() {
   return (
-        <div className='text-white grid grid-cols-4 gap-6 flex flex-row justify-center items-center content-center'>
+        <div className='text-white grid grid-cols-4 gap-6 flex flex-row justify-center items-center'>
             <a href='https://www.netflix.com/' target="_blank"><SiNetflix size={30} className="text-red-600 cursor-pointer hover:scale-110 duration-100"/></a>
             <a href='https://www.soundcloud.com/' target="_blank"><SiSoundcloud size={40} className="text-orange-600 cursor-pointer hover:scale-110 duration-100"/></a>
             <a href='https://www.hulu.com/' target="_blank"><SiHulu size={40} className="text-green-600  cursor-pointer hover:scale-110 duration-100"/></a>
